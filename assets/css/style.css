@@ -1,0 +1,24 @@
+.front-content {
+	padding: 50px;
+}
+.front {
+	background: #F06292;
+}
+.tagline {
+	color: #FCE4EC;
+	font-size: xx-large;
+	padding-top: 20px;
+}
+.tagline-sm {
+	color: #FCE4EC;
+	font-size: x-large;
+	padding-top: 20px;
+}
+.applist {
+	padding-top: 20px;
+	padding-bottom: 20px
+}
+.appname {
+	padding-top: 10px;
+	font-size: large;
+}
