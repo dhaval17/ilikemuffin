@@ -1,5 +1,5 @@
 .front-content {
-	padding: 50px;
+	padding: 100px;
 }
 .front {
 	background: #F06292;
@@ -11,7 +11,7 @@
 }
 .tagline-sm {
 	color: #37474F;
-	font-size: x-large;
+	font-size: large;
 	padding-top: 20px;
 }
 .applist {
@@ -21,4 +21,10 @@
 .appname {
 	padding-top: 10px;
 	font-size: large;
+}
+.muffin {
+	max-height: 340px;
+}
+.apps {
+	max-height: 170px
 }
