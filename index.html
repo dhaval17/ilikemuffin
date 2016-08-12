@@ -28,5 +28,24 @@
 		    </div>
 	    </div>
     </div>
+    <canvas id="reactive-bg-canvas"></canvas>
+    <script src="https://cdn.bootcss.com/jquery/2.1.4/jquery.min.js"></script>
+	<script src="https://cdn.bootcss.com/gsap/latest/TweenLite.min.js"></script>
+	<script src="https://raw.githubusercontent.com/decaywood/MagicCanvas/master/magic-canvas.js"></script>
+	<script>
+	    function random_move () {
+	        $.magicCanvas.draw({
+	            type:"random-move",
+	            rgb : function (circlePos) {
+	                var px = circlePos.x;
+	                var py = circlePos.y;
+	                // do some computation....
+	                return {r:77,g: 64,b:100};
+
+	            }
+	        })
+	    };
+	    random_move();
+	</script>
   </body>
 </html>
